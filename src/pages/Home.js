@@ -2,10 +2,12 @@ import { HomePage } from "components/HomePage/HomePage";
 
 
 
-export const Home = () => {
+ const Home = () => {
     return (
       <div>
         < HomePage/>
       </div>
     );
   }
+
+  export default Home;
